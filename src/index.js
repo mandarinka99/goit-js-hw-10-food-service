@@ -30,7 +30,6 @@ inputNode.addEventListener('change', () => {
 });
 
 const menuNode = document.querySelector('.js-menu');
-console.log(menuNode);
 
 const markup = itemsTemplate(menu);
 menuNode.innerHTML = markup;
